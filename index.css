@@ -1,0 +1,58 @@
+*{
+    padding:0;
+    margin:0;
+  }
+  body{
+  background-color:rgb(112,128,144);
+    
+  }
+  header{
+    text-align:center;
+    padding-top:2%;
+    padding-bottom:2%;
+  }
+  .logo{
+    width:10vh;
+    cursor:pointer;
+  }
+  .homeTitle{
+    font-size:10vh;
+    color:whitesmoke;
+    border-bottom:2px solid white;
+    margin-bottom:3vh;
+    font-family:'Yatra One',sans-serif;
+  }
+  
+  .collage{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    gap:10vh;
+    max-width:200vh;
+    margin:0 auto;
+    margin-bottom:3%;
+  }
+  .collage img{
+    width:100%;
+    max-width:50vh;
+    height:45vh;
+    object-fit:cover;
+    border-radius:5%;
+    cursor:pointer;
+    transition:0.5s;
+  }
+  .collage img:hover{
+    transform:translateY(-2vh);
+    transition:0.2s;
+    box-shadow:5px 5px 5px gray;
+  }
+  .collage p{
+    text-align:center;
+    font-size:5vh;
+    margin-top:2%;
+    font-family:'acme',sans-serif;
+    color:white;
+  }
+  
